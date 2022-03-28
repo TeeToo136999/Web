@@ -85,7 +85,8 @@ nav img {
 /*------------ ICONS ---------*/
 .icons img {
   bottom: 0%;
-  width: 50px;
+  width: 3%;
+  height: auto;
   cursor: pointer;
   display: inline;
   position: absolute;
