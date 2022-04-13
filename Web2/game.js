@@ -2,7 +2,6 @@ var LP = 0;
 var clickingpower = 1;
 var vaynehave = 0;
 var vaynecost = 50;
-var vayneupgradecost = 500;
 var ashehave = 0;
 var ashecost = 100;
 var kaisahave = 0;
