@@ -19,7 +19,7 @@ nav {
   align-items: center;
 }
 nav img {
-  width: 150px;
+  width: 80px;
 }
 .nav-links {
   flex: 1;
@@ -85,11 +85,11 @@ nav img {
 /*------------ ICONS ---------*/
 .icons img {
   bottom: 0%;
-  width: 3%;
-  height: auto;
+  width: 50px;
   cursor: pointer;
-  display: inline;
-  position: absolute;
+  display: block;
+  position: fixed;
+  margin: auto;
 }
 .github img {
   left: 45%;
@@ -192,4 +192,110 @@ nav img {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/*---------game------------*/
+
+/*main settings*/
+
+.maintext {
+  width: 60%;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 50%;
+  bottom: 90%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.game img {
+  width: 130px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.game p {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*mainclick*/
+
+.lol p {
+  top: 38%;
+  left: 50%;
+}
+.lol img {
+  top: 50%;
+  left: 50%;
+}
+
+/*vayne clicker*/
+
+.vayne img {
+  width: 100px;
+  top: 28%;
+  left: 10%;
+}
+.vayne p {
+  top: 38%;
+  left: 10%;
+}
+
+/*ashe clicker*/
+
+.ashe img {
+  top: 50%;
+  left: 10%;
+}
+.ashe p {
+  top: 58%;
+  left: 10%;
+}
+
+/*kaisa clicker*/
+
+.kaisa img {
+  width: 100px;
+  top: 70%;
+  left: 10%;
+}
+.kaisa p {
+  top: 78%;
+  left: 10%;
+}
+
+/*caitlyn clicker*/
+
+.caitlyn img {
+  width: 100px;
+  top: 28%;
+  left: 90%;
+}
+.caitlyn p {
+  top: 38%;
+  left: 90%;
+}
+
+/*missfortune clicker*/
+
+.missfortune img {
+  top: 50%;
+  left: 90%;
+}
+.missfortune p {
+  top: 59%;
+  left: 90%;
+}
+
+/*jinx clicker*/
+
+.jinx img {
+  top: 70%;
+  left: 90%;
+}
+.jinx p {
+  top: 78%;
+  left: 90%;
 }

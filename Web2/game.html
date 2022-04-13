@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device=width, initial-scale=1.0">
+    <title>ᵀ̲ᵉ̲ᵉ̲ᵀ̲ᵒ̲ᵒ̲</title>
+    <link rel="icon" href="resources/net.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="resources/logo.png"</a>
+        <div class="nav-links" id="navLinks">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Projects.html">PROJECTS</a></li>
+                <li><a href="secret.html">SECRET</a></li>
+                <li><a href="game.html">GAME</a></li>
+            </ul>
+        </div>
+    </nav>
+<div class="maintext">
+<h1>Leauge clicker game</h1>
+</div>
+<div class="game">
+
+    <div class="lol">
+        <img src="resources/click.png" onclick="addToLP(clickingpower)">
+        <p>You have <span id="LP">0</span> League Points
+        <br><span id="PointsPerClick">1</span> League Points per click
+        <br><span id="LPPS">0</span> League Points per second </p>
+    </div>
+ 
+    <div class="vayne">
+        <img src="resources/vayne.png" onclick="buyvayne()">
+        <p>You have [<span id="vaynehave">0</span>]
+        <br>Vayne cost [<span id="vaynecost">50</span>]</p>
+    </div>
+
+    <div class="ashe">
+        <img src="resources/ashe.png" onclick="buyashe()">
+        <p>You have [<span id="ashehave">0</span>]
+        <br>Ashe cost [<span id="ashecost">100</span>] </p>
+    </div>
+
+    <div class="kaisa">
+        <img src="resources/kaisa.png" onclick="buykaisa()">
+        <p>You have [<span id="kaisahave">0</span>]
+        <br>Kaisa cost [<span id="kaisacost">250</span>] </p>
+    </div>
+
+    <div class="caitlyn">
+        <img src="resources/caitlyn.png" onclick="buycaitlyn()">
+        <p>You have [<span id="caitlynhave">0</span>]
+        <br>Caitlyn cost [<span id="caitlyncost">500</span>]</p>
+    </div>
+
+    <div class="missfortune">
+        <img src="resources/missfortune.png" onclick="buymissfortune()">
+        <p>You have [<span id="missfortunehave">0</span>]
+        <br>MissFortune cost [<span id="missfortunecost">1000</span>]</p>
+    </div>
+
+    <div class="jinx">
+        <img src="resources/jinx.png" onclick="buyjinx()">
+        <p>You have [<span id="jinxhave">0</span>]
+        <br>Jinx cost [<span id="jinxcost">2500</span>]</p>
+    </div>
+</div>
+
+</section>
+
+<!-------icons------->
+<div class="icons">
+    <div class="github">
+        <a href="https://github.com/TeeToo136999"><img src="resources/github.png"</a>
+    </div>
+
+    <div class="instagram">
+        <a href="https://www.instagram.com/teetoo1369/"><img src="resources/instagram.png" </a>
+    </div>
+
+    <div class="youtube">
+        <a href="https://www.youtube.com/channel/UC4KQXqT_4-nXY5E-uq_UAqw"><img src="resources/youtube.png" </a>
+    </div>
+</div>
+</body>
+<script src="game.js"></script>
+</html>
